@@ -16,15 +16,42 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-    width: 2560
-    height: 1397
+    width: 1920
+    height: 989
   m_ShowMode: 4
-  m_Title: GitHub
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_Title: Hierarchy
+  m_RootView: {fileID: 7}
+  m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 309
+    y: 0
+    width: 755
+    height: 560
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,19 +64,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 10}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 2560
-    height: 1347
-  m_MinSize: {x: 300, y: 200}
+    width: 1920
+    height: 939
+  m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 96
---- !u!114 &3
+  controlID: 39
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -59,24 +86,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1955
+    x: 1064
     y: 0
-    width: 605
-    height: 1347
-  m_MinSize: {x: 101, y: 121}
+    width: 856
+    height: 939
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &4
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,8 +120,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 484
-    height: 798
+    width: 309
+    height: 560
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
@@ -102,7 +129,7 @@ MonoBehaviour:
   - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &5
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,18 +145,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 798
-    width: 1955
-    height: 549
+    y: 560
+    width: 1064
+    height: 379
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
-  - {fileID: 18}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &6
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,22 +169,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
   - {fileID: 8}
+  - {fileID: 3}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
-    height: 1397
+    width: 1920
+    height: 989
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &7
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,12 +201,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,36 +222,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1377
-    width: 2560
+    y: 969
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1955
-    height: 1347
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 39
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,17 +240,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
   - {fileID: 11}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1955
-    height: 798
+    width: 1064
+    height: 939
   m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
   controlID: 40
 --- !u!114 &11
 MonoBehaviour:
@@ -259,24 +261,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 484
+    x: 0
     y: 0
-    width: 1471
-    height: 798
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+    width: 1064
+    height: 560
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 41
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,10 +297,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1955
-    y: 73
-    width: 604
-    height: 1326
+    x: 1787
+    y: 81
+    width: 131
+    height: 909
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -311,14 +311,14 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: 208.08866270000001
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentBranchAndRemoteHasUpdate: 1
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -403,66 +403,19 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 'empty project '
     commitMessage: Intial commit
-    currentBranch: '[master]'
-    treeScroll: {x: 0, y: 905}
+    currentBranch: '[main]'
+    treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - 0b874704c77f7af499235a3a3b40ec4e
-        - 795d453f84c72454bb8279e82c557008
-        - cad92998c5182496e8b989b406d9f156
-        - d516f2a1bec6a9645a084ef8c9237132
-        - f81094832d834c64d93b198cb16b6a3e
-        - 0188ec438976e5849b40a2c1ce5f20f9
-        - 136dc24f151211d438acee17aff4e934
-        - dae2ecee8a704dd59797e26554ff8606
-        - c743ae24ee231884887054d20ccdd0ab
-        - c743ae24ee231884887054d20ccdd0ae
-        - 15ca2bebf173f2d4484686a03a45b56d
-        - 68c7e4565cde54155bb78d8e935f1ddb
-        - 68c7e4565cde54155bb78d8e935f1dd4
-        - 863e1b9976c4e46d29bf83928b3a8ab2
-        - 636d33ae594884e7d80b569f429d245d
-        - 21206c65839f84d0e9ae14bc1fdc68db
-        - ddb8611e748af425a82a497ac5a98c0c
-        - d601ecb6855bb432bae2aa49d8fd82e8
-        - 48c22d5d7479fcb49ab3be0cdd2ccec0
-        - f9fc9b08ecd899944adf9860b4abd6b6
-        - 790749ba7e4b18141953e39cb13f1b79
-        - 555cd6f54c03341b1970d950df1a5ee5
-        - a0ded7adcc817ce489fec07977f16d13
-        - 868fbb4c41814baebc00f96e24ede2f8
-        - fe5abeadcbe591e4fa9107fbc02f3998
-        - 99b48d4d4f6a66340ab06bd487d70a45
-        - 151a1d946b98deb4b98445400983ba92
-        - a83159a46d87d2a4f8cec651049b9231
         - 6ea315d0fd7389c41b19996891e99ae3
-        - 9fc0d4010bbf28b4594072e72b8655ab
-        - 00000000000000006000000000000000
-        - 00000000000000007100000000000000
-        - 00000000000000008000000000000000
-        - 0000000000000000b000000000000000
-        - 0000000000000000c000000000000000
-        - 00000000000000006100000000000000
-        - 00000000000000002000000000000000
-        - 0000000000000000f100000000000000
-        - 00000000000000004100000000000000
-        - 00000000000000005100000000000000
-        - 0000000000000000b100000000000000
-        - 00000000000000004000000000000000
-        - 0000000000000000e100000000000000
-        - 00000000000000009000000000000000
-        - 00000000000000003000000000000000
-        - 00000000000000007000000000000000
-        - 0000000000000000a100000000000000
-        - 0000000000000000d100000000000000
-        - 0000000000000000c100000000000000
+        - 3700445ca63a918428e81d6768fd2bfe
         values:
         - path: Assets
           label: Assets
@@ -482,510 +435,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Plugins
-          label: Plugins
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub
-          label: GitHub
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor
-          label: Editor
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          label: AsyncBridge.Net35.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-            projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          label: big-logo@2x.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-            projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\credits.txt
-          label: credits.txt
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\credits.txt
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\credits.txt
-            projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\eula.txt
-          label: eula.txt
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\eula.txt
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\eula.txt
-            projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          label: ExtensionLoader.cs
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-            projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          label: GitHub.Api.45.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          label: GitHub.Api.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          label: GitHub.Logging.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          label: GitHub.Unity.45.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          label: GitHub.Unity.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          label: GitHub.UnityShim.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-            projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-          label: libsfw.bundle
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\libsfw.bundle
-            projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\libsfw.so
-          label: libsfw.so
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\libsfw.so
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\libsfw.so
-            projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          label: Mono.Posix.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-            projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          label: QuickGuide.pdf
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-            projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          label: ReadOnlyCollectionsInterfaces.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-            projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-          label: sfw.net.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\sfw.net.dll
-            projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-          label: System.Threading.dll
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\System.Threading.dll
-            projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          label: UnityAPIWrapper.cs
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-            projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\x64
-          label: x64
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          label: pthreadVC2.dll
-          level: 5
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-            projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          label: sfw_x64.dll
-          level: 5
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-            projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\x86
-          label: x86
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          label: pthreadVC2.dll
-          level: 5
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-            projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          label: sfw_x86.dll
-          level: 5
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-            projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
         - path: Assets\Scenes
           label: Scenes
           level: 1
@@ -1004,8 +453,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity
-          label: SampleScene.unity
+        - path: Assets\Scenes\Main Menu.unity
+          label: Main Menu.unity
           level: 2
           isFolder: 0
           isContainer: 1
@@ -1016,389 +465,18 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scenes\SampleScene.unity
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Scenes\SampleScene.unity
-            projectPath: Assets\Scenes\SampleScene.unity
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\AudioManager.asset
-          label: AudioManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\AudioManager.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\AudioManager.asset
-            projectPath: ProjectSettings\AudioManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\ClusterInputManager.asset
-          label: ClusterInputManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ClusterInputManager.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\ClusterInputManager.asset
-            projectPath: ProjectSettings\ClusterInputManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\DynamicsManager.asset
-          label: DynamicsManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\DynamicsManager.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\DynamicsManager.asset
-            projectPath: ProjectSettings\DynamicsManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\EditorBuildSettings.asset
-          label: EditorBuildSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\EditorBuildSettings.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\EditorBuildSettings.asset
-            projectPath: ProjectSettings\EditorBuildSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\EditorSettings.asset
-          label: EditorSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\EditorSettings.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\EditorSettings.asset
-            projectPath: ProjectSettings\EditorSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\GraphicsSettings.asset
-          label: GraphicsSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\GraphicsSettings.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\GraphicsSettings.asset
-            projectPath: ProjectSettings\GraphicsSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\InputManager.asset
-          label: InputManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\InputManager.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\InputManager.asset
-            projectPath: ProjectSettings\InputManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\MemorySettings.asset
-          label: MemorySettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\MemorySettings.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\MemorySettings.asset
-            projectPath: ProjectSettings\MemorySettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\NavMeshAreas.asset
-          label: NavMeshAreas.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\NavMeshAreas.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\NavMeshAreas.asset
-            projectPath: ProjectSettings\NavMeshAreas.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\Physics2DSettings.asset
-          label: Physics2DSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\Physics2DSettings.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\Physics2DSettings.asset
-            projectPath: ProjectSettings\Physics2DSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\PresetManager.asset
-          label: PresetManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\PresetManager.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\PresetManager.asset
-            projectPath: ProjectSettings\PresetManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\ProjectSettings.asset
-          label: ProjectSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ProjectSettings.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\ProjectSettings.asset
-            projectPath: ProjectSettings\ProjectSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\ProjectVersion.txt
-          label: ProjectVersion.txt
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ProjectVersion.txt
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\ProjectVersion.txt
-            projectPath: ProjectSettings\ProjectVersion.txt
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\QualitySettings.asset
-          label: QualitySettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\QualitySettings.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\QualitySettings.asset
-            projectPath: ProjectSettings\QualitySettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\TagManager.asset
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\TimeManager.asset
-          label: TimeManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TimeManager.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\TimeManager.asset
-            projectPath: ProjectSettings\TimeManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\UnityConnectSettings.asset
-          label: UnityConnectSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\UnityConnectSettings.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\UnityConnectSettings.asset
-            projectPath: ProjectSettings\UnityConnectSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\VersionControlSettings.asset
-          label: VersionControlSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\VersionControlSettings.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\VersionControlSettings.asset
-            projectPath: ProjectSettings\VersionControlSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\VFXManager.asset
-          label: VFXManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\VFXManager.asset
-            fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\VFXManager.asset
-            projectPath: ProjectSettings\VFXManager.asset
+            path: Assets\Scenes\Main Menu.unity
+            fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\Main Menu.unity
+            projectPath: Assets\Scenes\Main Menu.unity
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
       folders:
         keys:
-        - .vscode
         - Assets
-        - Assets\Plugins
-        - Assets\Plugins\GitHub
-        - Assets\Plugins\GitHub\Editor
-        - Assets\Plugins\GitHub\Editor\x64
-        - Assets\Plugins\GitHub\Editor\x86
         - Assets\Scenes
-        - Packages
-        - ProjectSettings
-        - ProjectSettings\Packages
-        - ProjectSettings\Packages\com.unity.testtools.codecoverage
         - UserSettings
-        - UserSettings\Layouts
         values:
-        - path: .vscode
-          label: .vscode
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Assets
           label: Assets
           level: 0
@@ -1417,171 +495,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Plugins
-          label: Plugins
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub
-          label: GitHub
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor
-          label: Editor
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor\x64
-          label: x64
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Plugins\GitHub\Editor\x86
-          label: x86
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: Assets\Scenes
           label: Scenes
           level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Packages
-          label: Packages
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings\Packages
-          label: Packages
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings\Packages\com.unity.testtools.codecoverage
-          label: com.unity.testtools.codecoverage
-          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1600,24 +516,6 @@ MonoBehaviour:
         - path: UserSettings
           label: UserSettings
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1661,42 +559,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .vscode
-        label: .vscode
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vscode\settings.json
-        label: settings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vscode\settings.json
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\.vscode\settings.json
-          projectPath: .vscode\settings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets
         label: Assets
         level: 0
@@ -1715,1032 +577,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Plugins.meta
-        label: Plugins.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins.meta
-          projectPath: Assets\Plugins.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins
-        label: Plugins
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Plugins\GitHub.meta
-        label: GitHub.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub.meta
-          projectPath: Assets\Plugins\GitHub.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub
-        label: GitHub
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Plugins\GitHub\Editor.meta
-        label: Editor.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor.meta
-          projectPath: Assets\Plugins\GitHub\Editor.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor
-        label: Editor
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-        label: AsyncBridge.Net35.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-        label: AsyncBridge.Net35.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-        label: big-logo@2x.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-        label: big-logo@2x.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\credits.txt
-        label: credits.txt
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\credits.txt
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\credits.txt
-          projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-        label: credits.txt.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\credits.txt.meta
-          projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\eula.txt
-        label: eula.txt
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\eula.txt
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\eula.txt
-          projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-        label: eula.txt.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\eula.txt.meta
-          projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-        label: ExtensionLoader.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-        label: ExtensionLoader.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-        label: GitHub.Api.45.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-        label: GitHub.Api.45.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-        label: GitHub.Api.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-        label: GitHub.Api.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-        label: GitHub.Logging.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-        label: GitHub.Logging.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-        label: GitHub.Unity.45.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-        label: GitHub.Unity.45.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-        label: GitHub.Unity.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-        label: GitHub.Unity.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-        label: GitHub.UnityShim.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-        label: GitHub.UnityShim.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-        label: libsfw.bundle
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\libsfw.bundle
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-        label: libsfw.bundle.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\libsfw.so
-        label: libsfw.so
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\libsfw.so
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\libsfw.so
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-        label: libsfw.so.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-        label: Mono.Posix.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-        label: Mono.Posix.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-        label: QuickGuide.pdf
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-        label: QuickGuide.pdf.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-        label: ReadOnlyCollectionsInterfaces.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-        label: ReadOnlyCollectionsInterfaces.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-        label: sfw.net.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\sfw.net.dll
-          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-        label: sfw.net.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-        label: System.Threading.dll
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\System.Threading.dll
-          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-        label: System.Threading.dll.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-        label: UnityAPIWrapper.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-        label: UnityAPIWrapper.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x64.meta
-        label: x64.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x64.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x64
-        label: x64
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-        label: pthreadVC2.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-        label: pthreadVC2.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-        label: sfw_x64.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-        label: sfw_x64.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x86.meta
-        label: x86.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x86.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x86
-        label: x86
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-        label: pthreadVC2.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-        label: pthreadVC2.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-        label: sfw_x86.dll
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-        label: sfw_x86.dll.meta
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scenes.meta
-        label: Scenes.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Scenes.meta
-          projectPath: Assets\Scenes.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets\Scenes
         label: Scenes
         level: 1
@@ -2759,8 +595,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
+      - path: Assets\Scenes\Main Menu.unity
+        label: Main Menu.unity
         level: 2
         isFolder: 0
         isContainer: 1
@@ -2771,14 +607,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
+          path: Assets\Scenes\Main Menu.unity
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\Main Menu.unity
+          projectPath: Assets\Scenes\Main Menu.unity
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Scenes\SampleScene.unity.meta
-        label: SampleScene.unity.meta
+      - path: Assets\Scenes\Main Menu.unity.meta
+        label: Main Menu.unity.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -2789,513 +625,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Scenes\SampleScene.unity.meta
-          projectPath: Assets\Scenes\SampleScene.unity.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Packages
-        label: Packages
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Packages\manifest.json
-        label: manifest.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\manifest.json
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Packages\packages-lock.json
-        label: packages-lock.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\packages-lock.json
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        label: AudioManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\AudioManager.asset
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\ClusterInputManager.asset
-        label: ClusterInputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\ClusterInputManager.asset
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\DynamicsManager.asset
-        label: DynamicsManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\DynamicsManager.asset
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\EditorSettings.asset
-        label: EditorSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\EditorSettings.asset
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\GraphicsSettings.asset
-        label: GraphicsSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\InputManager.asset
-        label: InputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\InputManager.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\InputManager.asset
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\MemorySettings.asset
-        label: MemorySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\MemorySettings.asset
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\NavMeshAreas.asset
-        label: NavMeshAreas.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\NavMeshAreas.asset
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\PackageManagerSettings.asset
-        label: PackageManagerSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\PackageManagerSettings.asset
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\Packages
-        label: Packages
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage
-        label: com.unity.testtools.codecoverage
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-        label: Settings.json
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-          projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\Physics2DSettings.asset
-        label: Physics2DSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\Physics2DSettings.asset
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\PresetManager.asset
-        label: PresetManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\ProjectSettings.asset
-        label: ProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\QualitySettings.asset
-        label: QualitySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\TimeManager.asset
-        label: TimeManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\TimeManager.asset
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\UnityConnectSettings.asset
-        label: UnityConnectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\VersionControlSettings.asset
-        label: VersionControlSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\VersionControlSettings.asset
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\VFXManager.asset
-        label: VFXManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\VFXManager.asset
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\XRSettings.asset
-        label: XRSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\XRSettings.asset
-          projectPath: ProjectSettings\XRSettings.asset
+          path: Assets\Scenes\Main Menu.unity.meta
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\Main Menu.unity.meta
+          projectPath: Assets\Scenes\Main Menu.unity.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -3330,75 +662,21 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\UserSettings\EditorUserSettings.asset
           projectPath: UserSettings\EditorUserSettings.asset
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        label: default-2021.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\UserSettings\Layouts\default-2021.dwlt
-          projectPath: UserSettings\Layouts\default-2021.dwlt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings\Search.settings
-        label: Search.settings
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Search.settings
-          fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\UserSettings\Search.settings
-          projectPath: UserSettings\Search.settings
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          workTreeStatus: 3
       selectedNode:
-        path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 1
+        treeIsCheckable: 0
         checkState: 0
         isLocked: 0
         gitStatusEntry:
@@ -3409,507 +687,33 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: .vscode\settings.json
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\.vscode\settings.json
-      projectPath: .vscode\settings.json
+    - path: Assets\Scenes\Main Menu.unity
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\Main Menu.unity
+      projectPath: Assets\Scenes\Main Menu.unity
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Plugins.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins.meta
-      projectPath: Assets\Plugins.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub.meta
-      projectPath: Assets\Plugins\GitHub.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor.meta
-      projectPath: Assets\Plugins\GitHub\Editor.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\credits.txt
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\credits.txt
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\credits.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\eula.txt
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\eula.txt
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\eula.txt.meta
-      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\libsfw.bundle
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.so
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\libsfw.so
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\sfw.net.dll
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\System.Threading.dll
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Scenes.meta
-      projectPath: Assets\Scenes.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\SampleScene.unity.meta
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Assets\Scenes\SampleScene.unity.meta
-      projectPath: Assets\Scenes\SampleScene.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\manifest.json
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Packages\manifest.json
-      projectPath: Packages\manifest.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\packages-lock.json
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\Packages\packages-lock.json
-      projectPath: Packages\packages-lock.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\AudioManager.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\AudioManager.asset
-      projectPath: ProjectSettings\AudioManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ClusterInputManager.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\ClusterInputManager.asset
-      projectPath: ProjectSettings\ClusterInputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\DynamicsManager.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\DynamicsManager.asset
-      projectPath: ProjectSettings\DynamicsManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorBuildSettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\EditorBuildSettings.asset
-      projectPath: ProjectSettings\EditorBuildSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorSettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\EditorSettings.asset
-      projectPath: ProjectSettings\EditorSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\GraphicsSettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\GraphicsSettings.asset
-      projectPath: ProjectSettings\GraphicsSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\InputManager.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\InputManager.asset
-      projectPath: ProjectSettings\InputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\MemorySettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\MemorySettings.asset
-      projectPath: ProjectSettings\MemorySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\NavMeshAreas.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\NavMeshAreas.asset
-      projectPath: ProjectSettings\NavMeshAreas.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PackageManagerSettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\PackageManagerSettings.asset
-      projectPath: ProjectSettings\PackageManagerSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\Physics2DSettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\Physics2DSettings.asset
-      projectPath: ProjectSettings\Physics2DSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PresetManager.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\PresetManager.asset
-      projectPath: ProjectSettings\PresetManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectSettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\ProjectSettings.asset
-      projectPath: ProjectSettings\ProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectVersion.txt
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\ProjectVersion.txt
-      projectPath: ProjectSettings\ProjectVersion.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\QualitySettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\QualitySettings.asset
-      projectPath: ProjectSettings\QualitySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TagManager.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TimeManager.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\TimeManager.asset
-      projectPath: ProjectSettings\TimeManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\UnityConnectSettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\UnityConnectSettings.asset
-      projectPath: ProjectSettings\UnityConnectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VersionControlSettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\VersionControlSettings.asset
-      projectPath: ProjectSettings\VersionControlSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VFXManager.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\VFXManager.asset
-      projectPath: ProjectSettings\VFXManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\XRSettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\ProjectSettings\XRSettings.asset
-      projectPath: ProjectSettings\XRSettings.asset
+    - path: Assets\Scenes\Main Menu.unity.meta
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\Assets\Scenes\Main Menu.unity.meta
+      projectPath: Assets\Scenes\Main Menu.unity.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: UserSettings\EditorUserSettings.asset
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\jaisa\InTheOrbit\InTheOrbit\UserSettings\EditorUserSettings.asset
       projectPath: UserSettings\EditorUserSettings.asset
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\UserSettings\Layouts\default-2021.dwlt
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Search.settings
-      fullPath: C:\Users\haris\Development\git\unity\InTheOrbit\UserSettings\Search.settings
-      projectPath: UserSettings\Search.settings
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 82 changed files
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 3 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-12-02T17:21:42.216-08:00
+      updatedTimeString: 2023-12-26T12:14:12.294-08:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-12-02T17:22:32.643-08:00
+      updatedTimeString: 2023-12-26T12:16:04.455-08:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-12-26T12:14:13.022-08:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -4109,30 +913,30 @@ MonoBehaviour:
       m_Text: Release Lock (forced)
       m_Image: {fileID: 0}
       m_Tooltip: 
-  hasRemote: 0
-  currentRemoteName: 
-  currentBranch: master
-  currentRemoteUrl: No remote configured
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: main
+  currentRemoteUrl: https://github.com/rithvikrao8/InTheOrbit
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
-  isTrackingRemoteBranch: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: master
+    m_Text: main
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
-    m_Text: No remote configured
+    m_Text: https://github.com/rithvikrao8/InTheOrbit
     m_Image: {fileID: 0}
-    m_Tooltip: Add a remote in the Settings tab
+    m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-12-02T17:21:42.216-08:00
+    updatedTimeString: 2023-12-09T17:29:15.958-08:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-12-02T17:21:42.485-08:00
+    updatedTimeString: 2023-12-09T17:29:22.648-08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-12-02T17:22:32.643-08:00
+    updatedTimeString: 2023-12-09T17:29:22.639-08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -4150,12 +954,12 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 1
-  repositoryProgressMessage: Listing changed files...
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
-  primaryConnectionUsername: rithvikrao8
+  primaryConnectionUsername: 
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -4172,14 +976,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 871
-    width: 1954
-    height: 528
+    y: 633
+    width: 1063
+    height: 358
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -4201,7 +1005,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Plugins/GitHub/Editor
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -4209,16 +1013,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Plugins/GitHub/Editor
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\haris\Development\git\unity\InTheOrbit
+  m_LastProjectPath: C:\Users\jaisa\InTheOrbit\InTheOrbit
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 96080000
-    m_LastClickedID: 2198
-    m_ExpandedIDs: 000000000e060000c2060000420700009608000000ca9a3b
+    m_SelectedIDs: e25a0000
+    m_LastClickedID: 23266
+    m_ExpandedIDs: 00000000e25a0000e45a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4234,7 +1038,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 6}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -4246,7 +1050,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000e060000c20600004207000096080000
+    m_ExpandedIDs: 00000000e25a0000e45a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4273,8 +1077,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4290,7 +1094,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 6}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -4318,14 +1122,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1955
+    x: 1064
     y: 73
-    width: 604
-    height: 1326
+    width: 855
+    height: 918
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -4365,14 +1169,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 483
-    height: 777
+    width: 308
+    height: 539
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -4388,7 +1192,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 242dffff
+      m_ExpandedIDs: 32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4404,7 +1208,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -4428,14 +1232,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 484
+    x: 309
     y: 73
-    width: 1469
-    height: 777
+    width: 753
+    height: 539
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -4450,8 +1254,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -171, y: -26}
+      snapOffset: {x: -166, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -4515,9 +1319,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: 86}
+      snapOffset: {x: 67.5, y: -123}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 2
       id: Orientation
       index: 0
       layout: 4
@@ -4666,16 +1470,16 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
+    - dockPosition: 0
+      containerId: overlay-toolbar__right
       floating: 0
-      collapsed: 0
+      collapsed: 1
       displayed: 1
-      snapOffset: {x: 48, y: 48}
+      snapOffset: {x: -207, y: -242}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       id: AINavigationOverlay
-      index: 7
+      index: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -4688,6 +1492,19 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/TrailRenderer
+      index: 7
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 511, y: 158}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: UnityEditor.SceneViewCameraOverlay
       index: 8
       layout: 4
       size: {x: 0, y: 0}
@@ -4703,9 +1520,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -0.022514343, y: 9.449638, z: 148.8962}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -0.022514343, y: 9.449638, z: 148.8962}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -4751,13 +1568,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.019186718, y: 0.016490042, z: 0.00031638003, w: 0.99968255}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0.019186718, y: -0.016490042, z: -0.00031638003, w: -0.99968255}
   m_Size:
-    m_Target: 10
+    m_Target: 19.352823
     speed: 2
-    m_Value: 10
+    m_Value: 19.352823
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -4791,21 +1608,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 0
+    y: 613
+    width: 1366
+    height: 378
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -4816,16 +1633,52 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 309
+    y: 73
+    width: 753
+    height: 539
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - C:\Users\jaisa\InTheOrbit\InTheOrbit\Library\PlayModeViewStates\b824810bd92a856449d9ec38877b219d
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1532, y: 769}
+  m_TargetSize: {x: 753, y: 518}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
@@ -4837,10 +1690,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -766
-    m_HBaseRangeMax: 766
-    m_VBaseRangeMin: -384.5
-    m_VBaseRangeMax: 384.5
+    m_HBaseRangeMin: -376.5
+    m_HBaseRangeMax: 376.5
+    m_VBaseRangeMin: -259
+    m_VBaseRangeMax: 259
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -4849,7 +1702,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -4858,59 +1711,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1532
-      height: 769
+      width: 753
+      height: 518
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 384.5}
+    m_Translation: {x: 376.5, y: 259}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -766
-      y: -384.5
-      width: 1532
-      height: 769
+      x: -376.5
+      y: -259
+      width: 753
+      height: 518
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1532, y: 790}
+  m_LastWindowPixelSize: {x: 753, y: 539}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
